@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air University</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-red">
+        <a class="navbar-brand" href="#">Air University</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Academics</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Research</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Health Care</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Campus Life</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Admission</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>AIR</h1>
+            <button class="btn btn-primary" onclick="scrollToMission()">Explore AIR</button>
+        </div>
+    </header>
+
+    <!-- Mission Section -->
+    <section id="mission" class="text-center my-5">
+        <h2>A Societal Mission</h2>
+        <p>AIR was founded almost 22 years ago on a bedrock of societal purpose. 
+            Our mission is to contribute to the world by educating students for 
+            lives of leadership and contribution with integrity; advancing fundamental
+             knowledge and cultivating creativity; leading in pioneering research for 
+             effective clinical therapies; and accelerating solutions and amplifying their impact.</p>
+        <button class="btn btn-primary mt-3" onclick="scrollToTop()">More about AU</button>
+    </section>
+
+    <!-- Campus News Section -->
+    <section id="campus-news" class="text-center my-5">
+        <h2>Campus News</h2>
+        <p>Stories about people, research, and innovation across the Farm</p>
+        <div class="container">
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/health.jpg" class="card-img-top" alt="Health">
+                        <div class="card-body">
+                            <h5 class="card-title">Health</h5>
+                            <p class="card-text">Air University launches center focused on human and planetary health</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/Business-Studies.png" class="card-img-top" alt="Business">
+                        <div class="card-body">
+                            <h5 class="card-title">Business</h5>
+                            <p class="card-text">Mapping the maze where the Pakistan could find billions in unpaid taxes</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/Law.png" class="card-img-top" alt="Law">
+                        <div class="card-body">
+                            <h5 class="card-title">Law</h5>
+                            <p class="card-text">Helps lawyers identify legal principles, standards, and elements in court opinions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-primary mt-3">More campus news</button>
+    </section>
+
+    <!-- Academics Section -->
+    <section id="academics" class="text-center my-5">
+        <h2>Academics</h2>
+        <p>At Air University, students pursue academic excellence across a wide range of disciplines,
+             with access to groundbreaking research, global collaboration, and experiential learning.</p>
+        <div class="container">
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/library.jpeg" class="card-img-top" alt="Humanities">
+                        <div class="card-body">
+                            <h5 class="card-title">Humanities</h5>
+                            <p class="card-text">Exploring the human experience through literature, history, and philosophy.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/Hall.jpeg" class="card-img-top" alt="Sciences">
+                        <div class="card-body">
+                            <h5 class="card-title">Sciences</h5>
+                            <p class="card-text">Advancing knowledge in fields like biology, chemistry, and physics.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/Engineering.jpeg" class="card-img-top" alt="Engineering">
+                        <div class="card-body">
+                            <h5 class="card-title">Engineering</h5>
+                            <p class="card-text">Innovating solutions to address societal and environmental challenges.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="mt-3">Schools in which you can pursue your passions:</p>
+        <p>Medicine | Law | Humanities and Sciences | Engineering | Education | Computer Science | Business</p>
+        <button class="btn btn-primary mt-3">More about Academics</button>
+    </section>
+    <!-- Image Section with Hover Profile -->
+    <section class="profile-section">
+        <div class="profile-image">
+            <div class="profile-overlay">
+                <img src="images/bannerimg.jpg" alt="Logo" class="profile-logo">
+                <p class="profile-description">Welcome to Air University. Here, we foster academic excellence, research innovation, and societal impact.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section class="research-section">
+        <div class="container text-center">
+            <h2 class="section-title">Research at Air University</h2>
+            <p class="section-description">Air University is dedicated to advancing knowledge and solving real-world problems.
+                 Our research spans numerous disciplines and includes contributions from leading experts across fields.</p>
+
+            <!-- Stats Line -->
+            <div class="stats-line">
+                <hr>
+                <div class="stats">
+                    <div><strong>15 Institutions</strong><br><small>Focused on innovative research and academic excellence.</small></div>
+                    <div><strong>20 Libraries</strong><br><small>Extensive resources supporting scholarship and research.</small></div>
+                    <div><strong>$1.98 B</strong><br><small>Annual budget allocated to research initiatives and projects.</small></div>
+                </div>
+                <hr>
+            </div>
+
+            <!-- Button -->
+            <button class="btn btn-primary">More about Research</button>
+        </div>
+    </section>
+
+    <!-- Upcoming Events Section -->
+<section class="events-section">
+    <div class="container text-center">
+        <h2 class="section-title">Upcoming Events</h2>
+        <p class="section-description">Join us for upcoming events featuring thought leaders, cutting-edge research, and engaging discussions.</p>
+
+        <!-- Events Cards -->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card event-card">
+                    <img src="images/event.jpeg" class="card-img-top" alt="Event 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Event 1</h5>
+                        <p class="card-text">Join us for a fascinating discussion on emerging trends in technology.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card event-card">
+                    <img src="images/event2.jpg" class="card-img-top" alt="Event 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Event 2</h5>
+                        <p class="card-text">Explore new research in health sciences at this interactive seminar.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card event-card">
+                    <img src="images/event3.jpeg" class="card-img-top" alt="Event 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Event 3</h5>
+                        <p class="card-text">A workshop on the latest advancements in sustainable energy solutions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card event-card">
+                    <img src="images/event4.jpeg" class="card-img-top" alt="Event 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Event 4</h5>
+                        <p class="card-text">Pakistani Cultural Event<br> Punjabi Sindhi Balochi Pukhtuns</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Button -->
+        <button class="btn btn-primary mt-4">More events</button>
+    </div>
+</section>
+<!-- Health Care Section -->
+<section class="healthcare-section">
+    <div class="container text-center">
+        <h2 class="section-title">Health Care</h2>
+        <p class="section-description">Air University Health Care combines academic excellence with 
+            compassion to deliver cutting-edge healthcare and innovative medical research.</p>
+
+        <!-- Health Care Cards -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card healthcare-card">
+                    <img src="images/FMC.jpeg" class="card-img-top" alt="Healthcare 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Healthcare Initiative 1</h5>
+                        <p class="card-text">Exploring advancements in cancer research for improved patient outcomes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card healthcare-card">
+                    <img src="images/healthCare1.jpeg" class="card-img-top" alt="Healthcare 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Healthcare Initiative 2</h5>
+                        <p class="card-text">Innovative treatments for neurological disorders, improving lives globally.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card healthcare-card">
+                    <img src="images/healthCare2.jpg" class="card-img-top" alt="Healthcare 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Healthcare Initiative 3</h5>
+                        <p class="card-text">Pioneering research in cardiovascular health for early intervention.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Button -->
+        <button class="btn btn-primary mt-4">More about Health Care</button>
+    </div>
+</section>
+
+<!-- Admission Section -->
+<section class="admission-section">
+    <h2 class="admission-title">Admission</h2>
+    <p class="admission-description">Offering extraordinary freedom to explore, to collaborate, and to challenge yourself</p>
+    
+    <div class="admission-image-container">
+        <img src="images/Air UNI.jpeg" alt="Students walking at university" class="admission-image">
+    </div>
+    
+    <div class="admission-details">
+        <div class="admission-text">
+            <h3>Explore the possibilities of a AIR education as you map out your college journey.</h3>
+            <p>Find comprehensive information about application deadlines, academic programs, financial aid, and campus life.</p>
+        </div>
+        <div class="admission-text">
+            <h3>Air University meets the full financial need of every admitted undergrad who qualifies for assistance.</h3>
+            <p>We are committed to ensuring affordability for all students through various scholarships, grants, and financial plans.</p>
+        </div>
+    </div>
+
+    <button class="btn btn-primary mt-4">More about Admission</button>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-main-links">
+            <div>
+                <h5>SCHOOLS</h5>
+                <p>Business<br>Education<br>Engineering<br>Humanities & Sciences<br>Law<br>Medicine<br>Sustainability</p>
+            </div>
+            <div>
+                <h5>ACADEMICS</h5>
+                <p>Undergraduate Majors</p>
+            </div>
+            <div>
+                <h5>HEALTH CARE</h5>
+                <p>AU Health Care<br>AU Children's Health</p>
+            </div>
+            <div>
+                <h5>ABOUT Air University</h5>
+                <p>Facts<br>History<br>Accreditation</p>
+            </div>
+            <div>
+                <h5>RESOURCES</h5>
+                <p>Campus Map<br>Community Engagement<br>Directory<br>AU Profiles</p>
+            </div>
+        </div>
+        <div class="footer-secondary-links">
+            <div>
+                <h6>RESEARCH</h6>
+                <p>Research Centers<br>Libraries</p>
+            </div>
+            <div>
+                <h6>ONLINE LEARNING</h6>
+                <p>AU Online</p>
+            </div>
+            <div>
+                <h6>ADMISSION</h6>
+                <p>UG<br>Graduate<br>Financial Aid</p>
+            </div>
+        </div>
+        <div class="footer-buttons">
+            <button>Applying</button>
+            <button>Visiting</button>
+            <button>Giving</button>
+            <button>Careers</button>
+            <button>Faculty Positions</button>
+            <button>Contact</button>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p class="footer-text">
+            &copy; Air University. AU, Islamabad.
+        </p>
+        <p class="footer-links">
+            <a href="#">AU Home</a> | 
+            <a href="#">Maps & Directions</a> | 
+            <a href="#">Search AU</a> | 
+            <a href="#">Emergency Info</a> | 
+            <a href="#">Terms of Use</a> | 
+            <a href="#">Privacy</a> | 
+            <a href="#">Accessibility</a>
+        </p>
+    </div>
+</footer>
+   
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Scroll JavaScript -->
+    <script>
+        function scrollToMission() {
+            document.getElementById("mission").scrollIntoView({ behavior: "smooth" });
+        }
+        
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+    </script>
+</body>
+</html>
